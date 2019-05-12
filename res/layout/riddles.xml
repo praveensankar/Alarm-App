@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <DigitalClock
+        android:id="@+id/dcRiddles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DigitalClock"
+        android:textSize="30dp"
+        android:textColor="#ff0234" />
+
+    <TextView
+        android:id="@+id/questionRiddle"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dcRiddles"
+        android:text="question"
+        android:textSize="30dp"
+         />
+
+    
+    <RadioGroup
+        android:id="@+id/rgRiddles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/questionRiddle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="38dp" >
+
+        <RadioButton
+            android:id="@+id/rans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="answer" />
+
+        <RadioButton
+            android:id="@+id/rans2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:text="answer" />
+            
+        <RadioButton
+            android:id="@+id/rans3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:text="answer" />
+            
+          </RadioGroup>
+
+    <Button
+        android:id="@+id/rStopAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rgRiddles"
+        android:layout_below="@+id/rgRiddles"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="23dp"
+        android:text="stop alarm" />
+
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TextView" 
+        android:textSize="20dp"/>
+
+  <Button
+      android:id="@+id/cb5"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb4"
+      android:layout_alignBottom="@+id/cb4"
+      android:layout_alignLeft="@+id/cb2"
+      />
+
+  <Button
+      android:id="@+id/cb6"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb5"
+      android:layout_alignBottom="@+id/cb5"
+      android:layout_alignLeft="@+id/cb1"
+      />
+
+  <Button
+      android:id="@+id/cb8"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/cb5"
+      android:layout_centerVertical="true"
+       />
+
+  <Button
+      android:id="@+id/cb9"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/cb6"
+      android:layout_alignTop="@+id/cb8"
+      />
+
+  <Button
+      android:id="@+id/cb11"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb10"
+      android:layout_alignBottom="@+id/cb10"
+      android:layout_alignLeft="@+id/cb8"
+      />
+
+  <Button
+      android:id="@+id/cb12"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/cb11"
+      android:layout_alignLeft="@+id/cb9"
+       />
+
+  <Button
+      android:id="@+id/cb14"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/cb13"
+      android:layout_alignLeft="@+id/cb11"
+       />
+
+  <Button
+      android:id="@+id/cb15"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb14"
+      android:layout_alignBottom="@+id/cb14"
+      android:layout_alignRight="@+id/cb12"
+      />
+
+
+
+  <Button
+      android:id="@+id/cb2"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb3"
+      android:layout_alignBottom="@+id/cb3"
+      android:layout_alignLeft="@+id/cStopAlarm" 
+      />
+  
+  
+  <Button
+      android:id="@+id/cStopAlarm"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:text="stop alarm"
+      
+       />
+
+  <Button
+      android:id="@+id/cb1"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/cb4"
+      android:layout_alignParentRight="true" />
+
+  <Button
+      android:id="@+id/cb10"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/cb7" />
+
+  <Button
+      android:id="@+id/cb13"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/cb10" />
+
+  <Button
+      android:id="@+id/cb4"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/cb7"
+      android:layout_alignParentLeft="true" />
+
+  <Button
+      android:id="@+id/cb3"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb1"
+      android:layout_alignBottom="@+id/cb1"
+      android:layout_alignParentLeft="true" />
+
+  <Button
+      android:id="@+id/cb7"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/cb8"
+      android:layout_alignBottom="@+id/cb8"
+      android:layout_alignParentLeft="true" />
+  
+</RelativeLayout>

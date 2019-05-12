@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:title="settings"
+        android:id="@+id/Settings"
+        android:numericShortcut="0"
+        android:alphabeticShortcut="a"
+        />
+    <item 
+        android:title="Exit"
+        android:id="@+id/Exit"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="e"
+        
+        />
+
+</menu>

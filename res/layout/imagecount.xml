@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        <DigitalClock
+        android:id="@+id/iDigitalClock"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="DigitalClock"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/iImageView"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:src="@drawable/ic_launcher" />
+
+    <RadioGroup
+        android:id="@+id/iAnswers"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/iQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" 
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/iAnswer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="answer" />
+
+        <RadioButton
+            android:id="@+id/iAnswer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer" />
+
+        <RadioButton
+            android:id="@+id/iAnswer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answer" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/iStopAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop alarm"
+        android:textSize="20dp"
+        android:gravity="center" 
+        android:layout_gravity="center"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+</LinearLayout>
